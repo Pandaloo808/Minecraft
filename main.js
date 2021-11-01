@@ -32,15 +32,15 @@ function my_keydown(e){
   console.log(keyPressed);
   if(e.shiftKey==true && keyPressed=='80'){
     console.log("p and shift are pressed together");
-    Block_image_width=block_image_width+10;
-    Block-image_height=block_image_height+10;
+    block_image_width=block_image_width+10;
+    block-image_height=block_image_height+10;
     document.getElementbyId("current_width").innerHTML=block_image_width;
     document.getElementbyId("current_height").innerHTML=block_image_height;
   }
   if(e.shiftKey==true && keyPressed=='77'){
     console.log("m and shift are pressed together");
-    Block_image_width=block_image_width-10;
-    Block-image_height=block_image_height-10;
+    block_image_width=block_image_width-10;
+    block-image_height=block_image_height-10;
     document.getElementbyId("current_width").innerHTML=block_image_width;
     document.getElementbyId("current_height").innerHTML=block_image_height;
   }
