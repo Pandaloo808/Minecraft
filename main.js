@@ -60,7 +60,7 @@ function my_keydown(e){
     new_image('trunk.jpg');
     console.log(t); 
   }
-  if(keyPressed=='82'{
+  if(keyPressed=='82'){
     new_image('roof.jpg');
     console.log(r); 
   }
